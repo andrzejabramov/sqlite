@@ -1318,3 +1318,38 @@ sqlite3.ProgrammingError: Cannot operate on a closed database.
 2024-11-03 10:51:05,092 INFO user was not found
 2024-11-03 10:51:26,184 INFO connection successful
 2024-11-03 10:51:26,185 INFO user added
+2024-11-03 11:00:29,108 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiohttp/client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiohttp/client.py", line 586, in _request
+    await resp.start(conn)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 920, in start
+    self._continue = None
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 725, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2024-11-03 11:02:49,546 INFO Stop polling...
+2024-11-03 11:02:49,547 WARNING Goodbye!
+2024-11-03 11:02:53,056 INFO connection successful
+2024-11-03 11:02:53,057 INFO таблицы успешно созданы
+2024-11-03 11:02:53,057 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-03 11:02:53,286 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-03 11:02:53,451 WARNING Updates were skipped successfully.
+2024-11-03 11:02:53,452 INFO Start polling.
+2024-11-03 11:03:30,254 INFO connection successful
+2024-11-03 11:03:30,255 INFO user has been found
+2024-11-03 11:04:32,411 INFO connection successful
+2024-11-03 11:04:32,414 INFO user was not found
+2024-11-03 11:04:58,508 INFO connection successful
+2024-11-03 11:04:58,509 INFO user added
+2024-11-03 11:05:08,003 INFO Stop polling...
+2024-11-03 11:05:08,003 WARNING Goodbye!
