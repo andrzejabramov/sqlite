@@ -1,0 +1,1320 @@
+2024-11-01 13:33:20,278 INFO connection successful
+2024-11-01 13:33:20,530 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-01 13:33:20,680 WARNING Updates were skipped successfully.
+2024-11-01 13:33:20,680 INFO Start polling.
+2024-11-01 13:34:27,226 INFO Stop polling...
+2024-11-01 13:34:27,227 WARNING Goodbye!
+2024-11-02 13:41:28,065 INFO connection successful
+2024-11-02 13:49:19,511 INFO connection successful
+2024-11-02 13:49:19,980 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 13:49:20,217 WARNING Updates were skipped successfully.
+2024-11-02 13:49:20,218 INFO Start polling.
+2024-11-02 14:09:04,158 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiohttp/client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiohttp/client.py", line 586, in _request
+    await resp.start(conn)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 920, in start
+    self._continue = None
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 725, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2024-11-02 14:19:34,252 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiohttp/client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiohttp/client.py", line 586, in _request
+    await resp.start(conn)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 920, in start
+    self._continue = None
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 725, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2024-11-02 14:21:03,464 INFO Stop polling...
+2024-11-02 14:21:03,464 WARNING Goodbye!
+2024-11-02 14:21:13,237 INFO connection successful
+2024-11-02 14:22:01,686 INFO connection successful
+2024-11-02 14:24:06,632 INFO connection successful
+2024-11-02 14:28:11,450 INFO connection successful
+2024-11-02 14:40:31,881 INFO connection successful
+2024-11-02 14:41:23,869 INFO connection successful
+2024-11-02 14:42:24,054 INFO connection successful
+2024-11-02 14:45:27,787 INFO connection successful
+2024-11-02 14:45:28,054 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 14:45:28,210 WARNING Updates were skipped successfully.
+2024-11-02 14:45:28,211 INFO Start polling.
+2024-11-02 14:51:04,929 INFO Stop polling...
+2024-11-02 14:51:04,929 WARNING Goodbye!
+2024-11-02 15:24:57,802 INFO connection successful
+2024-11-02 15:27:04,045 INFO connection successful
+2024-11-02 15:28:34,343 INFO connection successful
+2024-11-02 15:30:24,382 INFO connection successful
+2024-11-02 15:31:37,083 INFO connection successful
+2024-11-02 15:31:50,474 INFO connection successful
+2024-11-02 15:32:50,295 INFO connection successful
+2024-11-02 15:33:21,650 INFO connection successful
+2024-11-02 15:34:03,349 INFO connection successful
+2024-11-02 15:48:51,154 INFO connection successful
+2024-11-02 15:49:55,115 INFO connection successful
+2024-11-02 15:50:06,247 INFO connection successful
+2024-11-02 15:53:51,167 INFO connection successful
+2024-11-02 15:58:34,163 INFO connection successful
+2024-11-02 16:00:31,025 INFO connection successful
+2024-11-02 16:03:42,058 INFO connection successful
+2024-11-02 16:09:07,008 INFO connection successful
+2024-11-02 16:09:31,669 INFO connection successful
+2024-11-02 16:09:42,452 INFO connection successful
+2024-11-02 16:10:20,819 INFO connection successful
+2024-11-02 16:10:39,461 INFO connection successful
+2024-11-02 18:26:54,675 INFO connection successful
+2024-11-02 18:26:54,675 INFO таблицы успешно созданы
+2024-11-02 18:28:54,543 INFO connection successful
+2024-11-02 18:28:54,543 INFO таблицы успешно созданы
+2024-11-02 18:30:27,256 INFO connection successful
+2024-11-02 18:30:27,257 INFO таблицы успешно созданы
+2024-11-02 18:32:52,826 INFO connection successful
+2024-11-02 18:32:52,826 INFO таблицы успешно созданы
+2024-11-02 18:32:53,287 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 18:32:53,445 WARNING Updates were skipped successfully.
+2024-11-02 18:32:53,446 INFO Start polling.
+2024-11-02 18:52:21,539 INFO connection successful
+2024-11-02 18:52:21,539 INFO таблицы успешно созданы
+2024-11-02 18:52:21,866 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 18:52:22,037 WARNING Updates were skipped successfully.
+2024-11-02 18:52:22,037 INFO Start polling.
+2024-11-02 20:24:40,099 INFO connection successful
+2024-11-02 20:24:40,100 INFO таблицы успешно созданы
+2024-11-02 20:24:40,414 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 20:24:40,594 WARNING Updates were skipped successfully.
+2024-11-02 20:24:40,595 INFO Start polling.
+2024-11-02 20:25:30,474 INFO Stop polling...
+2024-11-02 20:25:30,475 WARNING Goodbye!
+2024-11-02 20:25:32,385 INFO connection successful
+2024-11-02 20:25:32,385 INFO таблицы успешно созданы
+2024-11-02 20:25:32,385 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 20:25:32,676 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 20:25:32,856 WARNING Updates were skipped successfully.
+2024-11-02 20:25:32,856 INFO Start polling.
+2024-11-02 20:27:27,474 INFO Stop polling...
+2024-11-02 20:27:27,474 WARNING Goodbye!
+2024-11-02 20:28:27,200 INFO connection successful
+2024-11-02 20:28:27,200 INFO таблицы успешно созданы
+2024-11-02 20:28:27,200 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 20:28:27,454 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 20:28:27,658 WARNING Updates were skipped successfully.
+2024-11-02 20:28:27,659 INFO Start polling.
+2024-11-02 20:29:54,110 INFO Stop polling...
+2024-11-02 20:29:54,110 WARNING Goodbye!
+2024-11-02 20:45:37,780 INFO connection successful
+2024-11-02 20:45:37,781 INFO таблицы успешно созданы
+2024-11-02 20:45:37,781 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 20:45:38,085 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 20:45:38,245 WARNING Updates were skipped successfully.
+2024-11-02 20:45:38,245 INFO Start polling.
+2024-11-02 20:51:56,322 INFO Stop polling...
+2024-11-02 20:51:56,323 WARNING Goodbye!
+2024-11-02 20:51:58,679 INFO connection successful
+2024-11-02 20:51:58,679 INFO таблицы успешно созданы
+2024-11-02 20:51:58,679 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 20:51:58,949 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 20:51:59,111 WARNING Updates were skipped successfully.
+2024-11-02 20:51:59,112 INFO Start polling.
+2024-11-02 20:52:48,586 INFO Stop polling...
+2024-11-02 20:52:48,587 WARNING Goodbye!
+2024-11-02 20:55:04,971 INFO connection successful
+2024-11-02 20:55:04,972 INFO таблицы успешно созданы
+2024-11-02 20:55:04,972 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 20:55:05,215 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 20:55:05,371 WARNING Updates were skipped successfully.
+2024-11-02 20:55:05,371 INFO Start polling.
+2024-11-02 20:56:13,800 INFO Stop polling...
+2024-11-02 20:56:13,801 WARNING Goodbye!
+2024-11-02 21:01:27,755 INFO connection successful
+2024-11-02 21:01:27,755 INFO таблицы успешно созданы
+2024-11-02 21:01:27,755 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 21:01:28,061 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 21:01:28,212 WARNING Updates were skipped successfully.
+2024-11-02 21:01:28,213 INFO Start polling.
+2024-11-02 21:24:56,813 INFO Stop polling...
+2024-11-02 21:24:56,813 WARNING Goodbye!
+2024-11-02 21:24:58,421 INFO connection successful
+2024-11-02 21:24:58,421 INFO таблицы успешно созданы
+2024-11-02 21:24:58,421 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 21:24:58,658 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 21:24:58,826 WARNING Updates were skipped successfully.
+2024-11-02 21:24:58,826 INFO Start polling.
+2024-11-02 21:25:19,682 INFO {"message_id": 781, "from": {"id": 1332227560, "is_bot": false, "first_name": "Андрей", "last_name": "Абрамов", "username": "AndrzejVod", "language_code": "ru"}, "chat": {"id": 1332227560, "first_name": "Андрей", "last_name": "Абрамов", "username": "AndrzejVod", "type": "private"}, "date": 1730571919, "text": "firstusername"}
+2024-11-02 21:25:19,683 INFO <sqlite3.Connection object at 0x101fc5a80>
+2024-11-02 21:25:19,683 INFO firstusername
+2024-11-02 21:30:59,179 INFO Stop polling...
+2024-11-02 21:30:59,179 WARNING Goodbye!
+2024-11-02 21:41:25,637 INFO connection successful
+2024-11-02 21:41:25,639 INFO таблицы успешно созданы
+2024-11-02 21:41:25,639 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 21:41:25,917 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 21:41:26,084 WARNING Updates were skipped successfully.
+
+2024-11-02 22:12:40,252 INFO connection successful
+2024-11-02 22:12:40,252 INFO таблицы успешно созданы
+2024-11-02 22:12:40,252 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 22:18:23,875 INFO connection successful
+2024-11-02 22:18:23,875 INFO таблицы успешно созданы
+2024-11-02 22:18:23,875 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 22:18:52,528 INFO connection successful
+2024-11-02 22:18:52,529 INFO таблицы успешно созданы
+2024-11-02 22:18:52,529 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 22:20:24,141 INFO connection successful
+2024-11-02 22:20:24,141 INFO таблицы успешно созданы
+2024-11-02 22:20:24,141 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 22:28:35,923 INFO connection successful
+2024-11-02 22:28:35,923 INFO таблицы успешно созданы
+2024-11-02 22:28:35,923 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 22:29:41,723 INFO connection successful
+2024-11-02 22:29:41,723 INFO таблицы успешно созданы
+2024-11-02 22:29:41,723 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 22:32:18,984 INFO connection successful
+2024-11-02 22:32:18,984 INFO таблицы успешно созданы
+2024-11-02 22:32:18,984 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 22:32:18,986 INFO user has been found
+2024-11-02 22:32:31,430 INFO connection successful
+2024-11-02 22:32:31,430 INFO таблицы успешно созданы
+2024-11-02 22:32:31,430 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 22:34:52,928 INFO connection successful
+2024-11-02 22:34:52,928 INFO таблицы успешно созданы
+2024-11-02 22:36:13,576 INFO connection successful
+2024-11-02 22:36:13,576 INFO таблицы успешно созданы
+2024-11-02 22:38:15,807 INFO connection successful
+2024-11-02 22:38:15,807 INFO таблицы успешно созданы
+2024-11-02 22:38:44,171 INFO connection successful
+2024-11-02 22:38:44,172 INFO таблицы успешно созданы
+2024-11-02 22:38:44,172 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 22:38:44,172 INFO user has been found
+2024-11-02 22:38:44,481 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 22:38:44,671 WARNING Updates were skipped successfully.
+2024-11-02 22:38:44,672 INFO Start polling.
+2024-11-02 22:39:12,998 INFO Stop polling...
+2024-11-02 22:39:12,999 WARNING Goodbye!
+2024-11-02 22:39:14,483 INFO connection successful
+2024-11-02 22:39:14,483 INFO таблицы успешно созданы
+2024-11-02 22:39:14,483 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 22:39:14,483 INFO user has been found
+2024-11-02 22:39:14,757 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 22:39:14,939 WARNING Updates were skipped successfully.
+2024-11-02 22:39:14,940 INFO Start polling.
+2024-11-02 22:39:25,830 INFO Stop polling...
+2024-11-02 22:39:25,831 WARNING Goodbye!
+2024-11-02 22:39:26,093 INFO connection successful
+2024-11-02 22:39:26,094 INFO таблицы успешно созданы
+2024-11-02 22:39:26,094 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 22:39:26,094 INFO user has been found
+2024-11-02 22:39:26,307 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 22:39:26,466 WARNING Updates were skipped successfully.
+2024-11-02 22:39:26,467 INFO Start polling.
+2024-11-02 22:39:28,679 INFO Stop polling...
+2024-11-02 22:39:28,679 WARNING Goodbye!
+2024-11-02 22:40:00,401 INFO connection successful
+2024-11-02 22:40:00,401 INFO таблицы успешно созданы
+2024-11-02 22:40:00,401 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 22:40:33,834 INFO connection successful
+2024-11-02 22:40:33,834 INFO таблицы успешно созданы
+2024-11-02 22:40:33,834 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 22:40:33,834 INFO user has been found
+2024-11-02 22:40:34,154 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 22:40:34,331 WARNING Updates were skipped successfully.
+2024-11-02 22:40:34,332 INFO Start polling.
+2024-11-02 22:40:57,681 INFO Stop polling...
+2024-11-02 22:40:57,681 WARNING Goodbye!
+2024-11-02 22:43:36,179 INFO connection successful
+2024-11-02 22:43:36,179 INFO таблицы успешно созданы
+2024-11-02 22:43:36,179 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 22:43:36,462 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 22:43:36,642 WARNING Updates were skipped successfully.
+2024-11-02 22:43:36,643 INFO Start polling.
+2024-11-02 22:44:00,531 INFO connection successful
+2024-11-02 22:44:00,532 INFO user has been found
+2024-11-02 22:46:41,902 INFO Stop polling...
+2024-11-02 22:46:41,902 WARNING Goodbye!
+2024-11-02 22:46:43,499 INFO connection successful
+2024-11-02 22:46:43,499 INFO таблицы успешно созданы
+2024-11-02 22:46:43,499 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 22:46:43,778 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 22:46:43,926 WARNING Updates were skipped successfully.
+2024-11-02 22:46:43,927 INFO Start polling.
+2024-11-02 22:47:04,957 INFO connection successful
+2024-11-02 22:47:04,958 INFO user has been found
+2024-11-02 22:47:20,929 INFO connection successful
+2024-11-02 22:47:20,930 INFO user was not found
+2024-11-02 22:48:02,388 INFO Stop polling...
+2024-11-02 22:48:02,388 WARNING Goodbye!
+2024-11-02 23:11:05,142 INFO connection successful
+2024-11-02 23:11:05,142 INFO таблицы успешно созданы
+2024-11-02 23:11:05,143 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 23:11:05,426 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 23:11:05,582 WARNING Updates were skipped successfully.
+2024-11-02 23:11:05,583 INFO Start polling.
+2024-11-02 23:11:38,809 INFO connection successful
+2024-11-02 23:11:38,810 INFO user was not found
+2024-11-02 23:12:00,277 ERROR Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<Dispatcher._process_polling_updates() done, defined at /Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("object method can't be used in 'await' expression")>
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/module_14_5.py", line 106, in set_age
+    data = await state.get_data
+TypeError: object method can't be used in 'await' expression
+2024-11-02 23:12:22,514 INFO Stop polling...
+2024-11-02 23:12:22,515 WARNING Goodbye!
+2024-11-02 23:12:42,952 INFO connection successful
+2024-11-02 23:12:42,952 INFO таблицы успешно созданы
+2024-11-02 23:12:42,952 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 23:12:43,217 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 23:12:43,386 WARNING Updates were skipped successfully.
+2024-11-02 23:12:43,386 INFO Start polling.
+2024-11-02 23:13:09,469 INFO connection successful
+2024-11-02 23:13:09,469 INFO user was not found
+2024-11-02 23:13:33,327 INFO {'text_username': 'secondusername', 'text_email': 'seconduser@mail.ru', 'text_age': '61'}
+2024-11-02 23:14:30,281 INFO Stop polling...
+2024-11-02 23:14:30,281 WARNING Goodbye!
+2024-11-02 23:24:19,431 INFO connection successful
+2024-11-02 23:24:19,432 INFO таблицы успешно созданы
+2024-11-02 23:24:19,432 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 23:24:19,698 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 23:24:19,846 WARNING Updates were skipped successfully.
+2024-11-02 23:24:19,847 INFO Start polling.
+2024-11-02 23:24:40,089 INFO connection successful
+2024-11-02 23:24:40,089 INFO user was not found
+2024-11-02 23:24:58,910 INFO {'text_username': 'secondusername', 'text_email': 'seconduser@mail.ru', 'text_age': '61'}
+2024-11-02 23:24:58,911 ERROR Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<Dispatcher._process_polling_updates() done, defined at /Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("'builtin_function_or_method' object is not iterable")>
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/module_14_5.py", line 108, in set_age
+    val = tuple(data.values)
+TypeError: 'builtin_function_or_method' object is not iterable
+2024-11-02 23:26:27,279 INFO connection successful
+2024-11-02 23:26:27,279 INFO таблицы успешно созданы
+2024-11-02 23:26:27,279 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 23:26:27,506 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 23:26:27,665 WARNING Updates were skipped successfully.
+2024-11-02 23:26:27,665 INFO Start polling.
+2024-11-02 23:26:27,836 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:26:32,921 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:26:37,087 INFO {'text_username': 'secondusername', 'text_email': 'seconduser@mail.ru', 'text_age': '/start'}
+2024-11-02 23:26:37,088 ERROR Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<Dispatcher._process_polling_updates() done, defined at /Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("'builtin_function_or_method' object is not iterable")>
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/module_14_5.py", line 108, in set_age
+    val = tuple(data.values())
+TypeError: 'builtin_function_or_method' object is not iterable
+2024-11-02 23:26:38,015 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:26:43,096 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:26:48,186 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:26:53,276 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:26:56,850 INFO {'text_username': 'secondusername', 'text_email': 'seconduser@mail.ru', 'text_age': 'secondusername'}
+2024-11-02 23:26:56,851 ERROR Task exception was never retrieved
+future: <Task finished name='Task-40' coro=<Dispatcher._process_polling_updates() done, defined at /Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("'builtin_function_or_method' object is not iterable")>
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/module_14_5.py", line 108, in set_age
+    val = tuple(data.values())
+TypeError: 'builtin_function_or_method' object is not iterable
+2024-11-02 23:26:58,367 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:27:03,452 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:27:08,555 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:27:13,638 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:27:18,726 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:27:22,729 INFO Stop polling...
+2024-11-02 23:27:22,729 WARNING Goodbye!
+2024-11-02 23:27:36,732 INFO connection successful
+2024-11-02 23:27:36,732 INFO таблицы успешно созданы
+2024-11-02 23:27:36,732 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 23:27:36,963 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 23:27:37,107 WARNING Updates were skipped successfully.
+2024-11-02 23:27:37,108 INFO Start polling.
+2024-11-02 23:27:37,261 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:27:42,355 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:27:47,440 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:27:52,518 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:27:57,624 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:28:01,827 INFO connection successful
+2024-11-02 23:28:01,828 INFO user was not found
+2024-11-02 23:28:02,707 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:28:07,797 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:28:12,884 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:28:17,440 INFO {'text_username': 'secondusername', 'text_email': 'seconduser@mail.ru', 'text_age': 'seconduser@mail.ru'}
+2024-11-02 23:28:17,441 ERROR Task exception was never retrieved
+future: <Task finished name='Task-50' coro=<Dispatcher._process_polling_updates() done, defined at /Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("'builtin_function_or_method' object is not iterable")>
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/module_14_5.py", line 108, in set_age
+    val = tuple(data.values())
+TypeError: 'builtin_function_or_method' object is not iterable
+2024-11-02 23:28:17,971 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:28:23,051 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:28:28,136 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:28:33,222 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:28:38,314 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:28:43,400 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:28:48,477 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:28:53,577 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:28:58,658 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:29:03,741 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:29:08,820 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:29:13,331 INFO Stop polling...
+2024-11-02 23:29:13,332 WARNING Goodbye!
+2024-11-02 23:29:16,907 INFO connection successful
+2024-11-02 23:29:16,908 INFO таблицы успешно созданы
+2024-11-02 23:29:16,908 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 23:29:17,175 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 23:29:17,354 WARNING Updates were skipped successfully.
+2024-11-02 23:32:44,167 INFO connection successful
+2024-11-02 23:32:44,168 INFO таблицы успешно созданы
+2024-11-02 23:32:44,168 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 23:32:44,448 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 23:32:44,623 WARNING Updates were skipped successfully.
+2024-11-02 23:32:44,623 INFO Start polling.
+2024-11-02 23:32:44,830 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:32:49,919 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:32:55,024 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:33:00,106 INFO {'text_username': 'secondusername', 'text_email': 'seconduser@mail.ru', 'text_age': '/start'}
+2024-11-02 23:33:00,107 ERROR Task exception was never retrieved
+future: <Task finished name='Task-77' coro=<Dispatcher._process_polling_updates() done, defined at /Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("'builtin_function_or_method' object is not iterable")>
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/module_14_5.py", line 108, in set_age
+    val = tuple(data.values())
+TypeError: 'builtin_function_or_method' object is not iterable
+2024-11-02 23:33:00,321 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:33:05,410 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:33:10,501 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:33:15,555 INFO connection successful
+2024-11-02 23:33:15,555 INFO user was not found
+2024-11-02 23:33:15,579 INFO {'text_username': 'secondusername', 'text_email': 'seconduser@mail.ru', 'text_age': 'secondusername'}
+2024-11-02 23:33:15,579 ERROR Task exception was never retrieved
+future: <Task finished name='Task-82' coro=<Dispatcher._process_polling_updates() done, defined at /Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("'builtin_function_or_method' object is not iterable")>
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/module_14_5.py", line 108, in set_age
+    val = tuple(data.values())
+TypeError: 'builtin_function_or_method' object is not iterable
+2024-11-02 23:33:15,748 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:33:20,842 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:33:25,921 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:33:28,054 INFO {'text_username': 'secondusername', 'text_email': 'seconduser@mail.ru', 'text_age': 'seconduser@mail.ru'}
+2024-11-02 23:33:28,055 ERROR Task exception was never retrieved
+future: <Task finished name='Task-86' coro=<Dispatcher._process_polling_updates() done, defined at /Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("'builtin_function_or_method' object is not iterable")>
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/module_14_5.py", line 108, in set_age
+    val = tuple(data.values())
+TypeError: 'builtin_function_or_method' object is not iterable
+2024-11-02 23:33:31,017 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:33:36,100 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:33:41,190 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:33:46,277 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:33:51,380 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:33:56,466 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:34:01,557 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:34:06,638 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:34:11,740 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:34:16,833 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:34:21,996 ERROR Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2024-11-02 23:34:24,312 INFO Stop polling...
+2024-11-02 23:34:24,312 WARNING Goodbye!
+2024-11-02 23:37:57,709 INFO connection successful
+2024-11-02 23:37:57,709 INFO таблицы успешно созданы
+2024-11-02 23:37:57,709 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 23:37:58,044 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 23:37:58,197 WARNING Updates were skipped successfully.
+2024-11-02 23:37:58,197 INFO Start polling.
+2024-11-02 23:38:48,654 INFO connection successful
+2024-11-02 23:38:48,655 INFO user was not found
+2024-11-02 23:39:05,946 INFO {'text_username': 'secondusername', 'text_email': 'seconduser@mail.ru', 'text_age': '61'}
+2024-11-02 23:39:05,947 INFO ('secondusername', 'seconduser@mail.ru', '61')
+2024-11-02 23:39:17,159 INFO Stop polling...
+2024-11-02 23:39:17,159 WARNING Goodbye!
+2024-11-02 23:40:59,665 INFO connection successful
+2024-11-02 23:40:59,666 INFO таблицы успешно созданы
+2024-11-02 23:40:59,666 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 23:40:59,895 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 23:41:00,071 WARNING Updates were skipped successfully.
+2024-11-02 23:41:00,071 INFO Start polling.
+2024-11-02 23:41:33,507 INFO connection successful
+2024-11-02 23:41:33,508 INFO user was not found
+2024-11-02 23:42:55,787 INFO Stop polling...
+2024-11-02 23:42:55,787 WARNING Goodbye!
+2024-11-02 23:43:16,342 INFO connection successful
+2024-11-02 23:43:16,342 INFO таблицы успешно созданы
+2024-11-02 23:43:16,342 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 23:43:16,584 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 23:43:16,737 WARNING Updates were skipped successfully.
+2024-11-02 23:43:16,737 INFO Start polling.
+2024-11-02 23:43:40,075 INFO connection successful
+2024-11-02 23:43:40,075 INFO user was not found
+2024-11-02 23:43:56,151 INFO ('secondusername', 'seconduser@mail.ru', '61')
+2024-11-02 23:44:03,192 INFO Stop polling...
+2024-11-02 23:44:03,192 WARNING Goodbye!
+2024-11-02 23:51:00,763 INFO connection successful
+2024-11-02 23:51:00,763 INFO таблицы успешно созданы
+2024-11-02 23:51:00,763 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-02 23:51:01,076 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-02 23:51:01,244 WARNING Updates were skipped successfully.
+2024-11-02 23:51:01,244 INFO Start polling.
+2024-11-02 23:51:25,467 INFO connection successful
+2024-11-02 23:51:25,468 INFO user was not found
+2024-11-02 23:51:44,561 INFO connection successful
+2024-11-02 23:51:44,562 ERROR Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<Dispatcher._process_polling_updates() done, defined at /Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=ProgrammingError('Incorrect number of bindings supplied. The current statement uses 4, and there are 3 supplied.')>
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/module_14_5.py", line 110, in set_age
+    add_user(conn, data_ins)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/crud_functions.py", line 64, in add_user
+    connection.execute(sql, *param)
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 4, and there are 3 supplied.
+2024-11-02 23:51:51,728 INFO Stop polling...
+2024-11-02 23:51:51,729 WARNING Goodbye!
+2024-11-03 10:43:18,549 INFO connection successful
+2024-11-03 10:43:18,549 INFO таблицы успешно созданы
+2024-11-03 10:43:18,549 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-03 10:43:18,832 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-03 10:43:18,998 WARNING Updates were skipped successfully.
+2024-11-03 10:43:18,999 INFO Start polling.
+2024-11-03 10:44:10,484 INFO connection successful
+2024-11-03 10:44:10,485 INFO user has been found
+2024-11-03 10:44:22,095 INFO connection successful
+2024-11-03 10:44:22,096 INFO user was not found
+2024-11-03 10:44:45,985 INFO connection successful
+2024-11-03 10:44:45,986 INFO user added
+2024-11-03 10:44:45,987 ERROR Task exception was never retrieved
+future: <Task finished name='Task-33' coro=<Dispatcher._process_polling_updates() done, defined at /Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=ProgrammingError('Cannot operate on a closed database.')>
+sqlite3.ProgrammingError: Cannot operate on a closed database.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/.venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/module_14_5.py", line 112, in set_age
+    add_user(conn, data_ins)
+  File "/Users/andrejabramov/Desktop/Urban/sqlite/crud_functions.py", line 66, in add_user
+    connection.close()
+sqlite3.ProgrammingError: Cannot operate on a closed database.
+2024-11-03 10:45:05,218 INFO Stop polling...
+2024-11-03 10:45:05,218 WARNING Goodbye!
+2024-11-03 10:50:39,396 INFO connection successful
+2024-11-03 10:50:39,396 INFO таблицы успешно созданы
+2024-11-03 10:50:39,396 INFO result: [(1, 'Продукт1', 'Описание1', 100), (2, 'Продукт2', 'Описание2', 200), (3, 'Продукт3', 'Описание3', 300), (4, 'Продукт4', 'Описание4', 400)]
+2024-11-03 10:50:39,656 INFO Bot: Urbaunbot_andrzej [@Andrzej_urbanbot]
+2024-11-03 10:50:39,813 WARNING Updates were skipped successfully.
+2024-11-03 10:50:39,813 INFO Start polling.
+2024-11-03 10:51:05,091 INFO connection successful
+2024-11-03 10:51:05,092 INFO user was not found
+2024-11-03 10:51:26,184 INFO connection successful
+2024-11-03 10:51:26,185 INFO user added
